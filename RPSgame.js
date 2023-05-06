@@ -81,15 +81,16 @@ function game(roundCount = 5) {
     }
 
     console.log(`Round ${i}/${roundCount} results:`)
-    playRound(playerSelection, computerSelection)
+    playRound(playerSelection, computerSelection);
   }
 
-  if(userScore === computerScore)
-      console.log("Game ended in a Draw!");
-  else if(userScore > computerScore)
-      console.log("You won!")
-  else if(userScore < computerScore)
-      console.log("You lost!");
+  if(userScore === computerScore){
+      console.log("Game ended in a Draw!")}
+  else if(userScore > computerScore){
+      console.log("You won!")}
+  else if(userScore < computerScore){
+      console.log("You lost!")}
+  
 }
 
 console.log(game());
