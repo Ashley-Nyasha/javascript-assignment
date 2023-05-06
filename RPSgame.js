@@ -85,8 +85,3 @@ function game(roundCount = 5) {
 
 console.log(game());
 
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
